@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  iOS14UIKitSampler
 //
-//  Created by kahayash on 2020/07/29.
+//  Created by Kazuhiro Hayashi on 2020/07/29.
 //
 
 import UIKit
