@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC5C6C124D1DC9900CBD0D7 /* SidebarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5C6C024D1DC9900CBD0D7 /* SidebarViewController.storyboard */; };
+		2BC5C6C324D1DCA700CBD0D7 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5C6C224D1DCA700CBD0D7 /* SidebarViewController.swift */; };
+		2BC5C6C524D1DCDC00CBD0D7 /* SidebarModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5C6C424D1DCDC00CBD0D7 /* SidebarModalViewController.storyboard */; };
+		2BC5C6C724D1DEA800CBD0D7 /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5C6C624D1DEA800CBD0D7 /* ListViewController.storyboard */; };
+		2BC5C6C924D1DF3900CBD0D7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5C6C824D1DF3900CBD0D7 /* ListViewController.swift */; };
+		2BC5C6CB24D1F7BB00CBD0D7 /* ListContentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5C6CA24D1F7BB00CBD0D7 /* ListContentViewController.storyboard */; };
+		2BC5C6CD24D1FA8A00CBD0D7 /* ListContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5C6CC24D1FA8A00CBD0D7 /* ListContentViewController.swift */; };
+		2BC5C6CF24D22DAA00CBD0D7 /* UIPasteboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5C6CE24D22DAA00CBD0D7 /* UIPasteboardViewController.storyboard */; };
+		2BC5C6D124D22DB500CBD0D7 /* UIPasteboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5C6D024D22DB500CBD0D7 /* UIPasteboardViewController.swift */; };
 		2BCA7E1424D1A7910096CBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1324D1A7910096CBA8 /* AppDelegate.swift */; };
 		2BCA7E1624D1A7910096CBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1524D1A7910096CBA8 /* SceneDelegate.swift */; };
-		2BCA7E1824D1A7910096CBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1724D1A7910096CBA8 /* ViewController.swift */; };
 		2BCA7E1B24D1A7910096CBA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1924D1A7910096CBA8 /* Main.storyboard */; };
 		2BCA7E1D24D1A7930096CBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1C24D1A7930096CBA8 /* Assets.xcassets */; };
 		2BCA7E2024D1A7930096CBA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E1E24D1A7930096CBA8 /* LaunchScreen.storyboard */; };
 		2BCA7E2B24D1A7930096CBA8 /* iOS14UIKitSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E2A24D1A7930096CBA8 /* iOS14UIKitSamplerTests.swift */; };
 		2BCA7E3624D1A7940096CBA8 /* iOS14UIKitSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E3524D1A7940096CBA8 /* iOS14UIKitSamplerUITests.swift */; };
+		2BCA7E4424D1A8AC0096CBA8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4324D1A8AC0096CBA8 /* TableViewController.swift */; };
+		2BCA7E4624D1AAFB0096CBA8 /* MenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4524D1AAFB0096CBA8 /* MenuViewController.storyboard */; };
+		2BCA7E4A24D1B6690096CBA8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4924D1B6690096CBA8 /* MenuViewController.swift */; };
+		2BCA7E4C24D1B6BE0096CBA8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4B24D1B6BE0096CBA8 /* PageControlViewController.swift */; };
+		2BCA7E4E24D1B6CB0096CBA8 /* PageControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4D24D1B6CB0096CBA8 /* PageControlViewController.storyboard */; };
+		2BCA7E5024D1BE780096CBA8 /* NewControlsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E4F24D1BE780096CBA8 /* NewControlsViewController.storyboard */; };
+		2BCA7E5224D1BE820096CBA8 /* NewControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E5124D1BE820096CBA8 /* NewControlsViewController.swift */; };
+		2BCA7E5424D1C16A0096CBA8 /* DatePickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E5324D1C16A0096CBA8 /* DatePickerViewController.storyboard */; };
+		2BCA7E5624D1C8420096CBA8 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E5524D1C8420096CBA8 /* DatePickerViewController.swift */; };
+		2BCA7E5824D1D57B0096CBA8 /* UIControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA7E5724D1D57B0096CBA8 /* UIControlViewController.storyboard */; };
+		2BCA7E5A24D1D5840096CBA8 /* UIControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA7E5924D1D5840096CBA8 /* UIControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BC5C6C024D1DC9900CBD0D7 /* SidebarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SidebarViewController.storyboard; sourceTree = "<group>"; };
+		2BC5C6C224D1DCA700CBD0D7 /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		2BC5C6C424D1DCDC00CBD0D7 /* SidebarModalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SidebarModalViewController.storyboard; sourceTree = "<group>"; };
+		2BC5C6C624D1DEA800CBD0D7 /* ListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListViewController.storyboard; sourceTree = "<group>"; };
+		2BC5C6C824D1DF3900CBD0D7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2BC5C6CA24D1F7BB00CBD0D7 /* ListContentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListContentViewController.storyboard; sourceTree = "<group>"; };
+		2BC5C6CC24D1FA8A00CBD0D7 /* ListContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentViewController.swift; sourceTree = "<group>"; };
+		2BC5C6CE24D22DAA00CBD0D7 /* UIPasteboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIPasteboardViewController.storyboard; sourceTree = "<group>"; };
+		2BC5C6D024D22DB500CBD0D7 /* UIPasteboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPasteboardViewController.swift; sourceTree = "<group>"; };
 		2BCA7E1024D1A7910096CBA8 /* iOS14UIKitSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS14UIKitSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCA7E1324D1A7910096CBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BCA7E1524D1A7910096CBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BCA7E1724D1A7910096CBA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BCA7E1A24D1A7910096CBA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BCA7E1C24D1A7930096CBA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BCA7E1F24D1A7930096CBA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +76,17 @@
 		2BCA7E3124D1A7940096CBA8 /* iOS14UIKitSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS14UIKitSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCA7E3524D1A7940096CBA8 /* iOS14UIKitSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14UIKitSamplerUITests.swift; sourceTree = "<group>"; };
 		2BCA7E3724D1A7940096CBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCA7E4324D1A8AC0096CBA8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2BCA7E4524D1AAFB0096CBA8 /* MenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuViewController.storyboard; sourceTree = "<group>"; };
+		2BCA7E4924D1B6690096CBA8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2BCA7E4B24D1B6BE0096CBA8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		2BCA7E4D24D1B6CB0096CBA8 /* PageControlViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageControlViewController.storyboard; sourceTree = "<group>"; };
+		2BCA7E4F24D1BE780096CBA8 /* NewControlsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewControlsViewController.storyboard; sourceTree = "<group>"; };
+		2BCA7E5124D1BE820096CBA8 /* NewControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewControlsViewController.swift; sourceTree = "<group>"; };
+		2BCA7E5324D1C16A0096CBA8 /* DatePickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePickerViewController.storyboard; sourceTree = "<group>"; };
+		2BCA7E5524D1C8420096CBA8 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		2BCA7E5724D1D57B0096CBA8 /* UIControlViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIControlViewController.storyboard; sourceTree = "<group>"; };
+		2BCA7E5924D1D5840096CBA8 /* UIControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +139,27 @@
 			children = (
 				2BCA7E1324D1A7910096CBA8 /* AppDelegate.swift */,
 				2BCA7E1524D1A7910096CBA8 /* SceneDelegate.swift */,
-				2BCA7E1724D1A7910096CBA8 /* ViewController.swift */,
+				2BCA7E4324D1A8AC0096CBA8 /* TableViewController.swift */,
 				2BCA7E1924D1A7910096CBA8 /* Main.storyboard */,
+				2BCA7E4924D1B6690096CBA8 /* MenuViewController.swift */,
+				2BCA7E4524D1AAFB0096CBA8 /* MenuViewController.storyboard */,
+				2BCA7E4B24D1B6BE0096CBA8 /* PageControlViewController.swift */,
+				2BCA7E4D24D1B6CB0096CBA8 /* PageControlViewController.storyboard */,
+				2BCA7E4F24D1BE780096CBA8 /* NewControlsViewController.storyboard */,
+				2BCA7E5124D1BE820096CBA8 /* NewControlsViewController.swift */,
+				2BCA7E5324D1C16A0096CBA8 /* DatePickerViewController.storyboard */,
+				2BCA7E5524D1C8420096CBA8 /* DatePickerViewController.swift */,
+				2BCA7E5724D1D57B0096CBA8 /* UIControlViewController.storyboard */,
+				2BCA7E5924D1D5840096CBA8 /* UIControlViewController.swift */,
+				2BC5C6C424D1DCDC00CBD0D7 /* SidebarModalViewController.storyboard */,
+				2BC5C6C024D1DC9900CBD0D7 /* SidebarViewController.storyboard */,
+				2BC5C6C224D1DCA700CBD0D7 /* SidebarViewController.swift */,
+				2BC5C6C624D1DEA800CBD0D7 /* ListViewController.storyboard */,
+				2BC5C6C824D1DF3900CBD0D7 /* ListViewController.swift */,
+				2BC5C6CA24D1F7BB00CBD0D7 /* ListContentViewController.storyboard */,
+				2BC5C6CC24D1FA8A00CBD0D7 /* ListContentViewController.swift */,
+				2BC5C6CE24D22DAA00CBD0D7 /* UIPasteboardViewController.storyboard */,
+				2BC5C6D024D22DB500CBD0D7 /* UIPasteboardViewController.swift */,
 				2BCA7E1C24D1A7930096CBA8 /* Assets.xcassets */,
 				2BCA7E1E24D1A7930096CBA8 /* LaunchScreen.storyboard */,
 				2BCA7E2124D1A7930096CBA8 /* Info.plist */,
@@ -231,9 +288,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCA7E5024D1BE780096CBA8 /* NewControlsViewController.storyboard in Resources */,
+				2BC5C6C124D1DC9900CBD0D7 /* SidebarViewController.storyboard in Resources */,
+				2BC5C6C524D1DCDC00CBD0D7 /* SidebarModalViewController.storyboard in Resources */,
+				2BC5C6C724D1DEA800CBD0D7 /* ListViewController.storyboard in Resources */,
+				2BCA7E4624D1AAFB0096CBA8 /* MenuViewController.storyboard in Resources */,
 				2BCA7E2024D1A7930096CBA8 /* LaunchScreen.storyboard in Resources */,
+				2BCA7E5824D1D57B0096CBA8 /* UIControlViewController.storyboard in Resources */,
 				2BCA7E1D24D1A7930096CBA8 /* Assets.xcassets in Resources */,
+				2BCA7E5424D1C16A0096CBA8 /* DatePickerViewController.storyboard in Resources */,
+				2BC5C6CB24D1F7BB00CBD0D7 /* ListContentViewController.storyboard in Resources */,
 				2BCA7E1B24D1A7910096CBA8 /* Main.storyboard in Resources */,
+				2BC5C6CF24D22DAA00CBD0D7 /* UIPasteboardViewController.storyboard in Resources */,
+				2BCA7E4E24D1B6CB0096CBA8 /* PageControlViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCA7E1824D1A7910096CBA8 /* ViewController.swift in Sources */,
 				2BCA7E1424D1A7910096CBA8 /* AppDelegate.swift in Sources */,
+				2BCA7E5224D1BE820096CBA8 /* NewControlsViewController.swift in Sources */,
+				2BCA7E5624D1C8420096CBA8 /* DatePickerViewController.swift in Sources */,
+				2BCA7E4424D1A8AC0096CBA8 /* TableViewController.swift in Sources */,
+				2BCA7E4C24D1B6BE0096CBA8 /* PageControlViewController.swift in Sources */,
 				2BCA7E1624D1A7910096CBA8 /* SceneDelegate.swift in Sources */,
+				2BC5C6D124D22DB500CBD0D7 /* UIPasteboardViewController.swift in Sources */,
+				2BCA7E5A24D1D5840096CBA8 /* UIControlViewController.swift in Sources */,
+				2BC5C6C324D1DCA700CBD0D7 /* SidebarViewController.swift in Sources */,
+				2BC5C6C924D1DF3900CBD0D7 /* ListViewController.swift in Sources */,
+				2BC5C6CD24D1FA8A00CBD0D7 /* ListContentViewController.swift in Sources */,
+				2BCA7E4A24D1B6690096CBA8 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
